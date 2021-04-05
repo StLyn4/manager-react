@@ -1,0 +1,21 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1em;
+}
+
+.slider {
+  flex: 1;
+}
+
+.icon {
+  transition: color 150ms linear;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 2em;
+
+  &.icon-active {
+    color: rgba(255, 255, 255, 1);
+  }
+}
